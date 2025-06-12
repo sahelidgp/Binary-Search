@@ -40,7 +40,7 @@ arr is guaranteed to be a mountain array.
 
  we have to find the peak element 
 
- [1 2 6 7 `8`6 4 3]   
+ [1 2 6 7 `8` 4 3]   
  here  the peak element  is 8 
  
  * the portion before the peak element will lie in the  increasing slope
@@ -62,3 +62,5 @@ arr is guaranteed to be a mountain array.
          /           \
         /             3
        2
+      /
+      1
