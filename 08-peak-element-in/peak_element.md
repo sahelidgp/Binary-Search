@@ -46,7 +46,7 @@ arr is guaranteed to be a mountain array.
  * the portion before the peak element will lie in the  increasing slope
  * the portion after the peak element will lie in the decreasing slope
  * here we can apply binary search 
- * we will initialize the low as 1 and high as n-2 as the 1st and the last element can not be the peak element as it is given in the question that the array will always be mountain  array . so we can apply binary search in   `[2 6 7 8 4 3]`
+ * we will initialize the low as 1 and high as n-2 as the 1st and the last element can not be the peak element as it is given in the question that the array will always be mountain  array . so we can apply binary search in   `[2 6 7 8 4 ]`
  * now there are three possibilities :
 *  arr[mid] is the peak element : a[mid-1]<a[mid]>a[mid+1]
 * mid lies in the increasing slope : a[mid-1]<a[mid] => search in the right half
